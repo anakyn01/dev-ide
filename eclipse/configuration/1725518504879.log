@@ -1,0 +1,1546 @@
+!SESSION 2024-09-05 15:41:44.612 -----------------------------------------------
+eclipse.buildId=4.21.0.I20210906-0500
+java.version=1.8.0_332
+java.vendor=ojdkbuild
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+This is a continuation of log file C:\dev\eclipse\configuration\1725518504879.bak_7.log
+Created Time: 2024-09-05 15:41:48.113
+
+!ENTRY org.eclipse.wst.jsdt.web.core 2 0 2024-09-05 15:41:48.113
+!MESSAGE Could not resolve module: org.eclipse.wst.jsdt.web.core [850]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.14.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+       org.eclipse.core.runtime [147]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+              org.eclipse.equinox.registry [404]
+                Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                  -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                     org.eclipse.core.jobs [142]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                            org.eclipse.equinox.common [360]
+                              Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+              org.eclipse.core.contenttype [132]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                     org.eclipse.equinox.preferences [403]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+              org.eclipse.equinox.app [358]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+
+
+!ENTRY org.eclipse.jem.beaninfo 2 0 2024-09-05 15:41:48.113
+!MESSAGE Could not resolve module: org.eclipse.jem.beaninfo [436]
+  Unresolved requirement: Require-Bundle: org.eclipse.jem.proxy; bundle-version="[2.0.0,3.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jem.proxy; bundle-version="2.1.0.v202101081429"; singleton:="true"
+       org.eclipse.jem.proxy [439]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jdt.launching; bundle-version="3.19.300.v20210815-1119"; singleton:="true"
+              org.eclipse.jdt.launching [433]
+                Unresolved requirement: Require-Bundle: org.eclipse.core.resources; bundle-version="[3.14.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.core.resources; bundle-version="3.15.100.v20210818-1523"; singleton:="true"
+                     org.eclipse.core.resources [145]
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.filesystem; bundle-version="[1.3.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.core.filesystem; bundle-version="1.9.100.v20210611-0919"; singleton:="true"
+                            org.eclipse.core.filesystem [140]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                                   org.eclipse.equinox.common [360]
+                                     Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.expressions; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.core.expressions; bundle-version="3.8.0.v20210723-1034"; singleton:="true"
+                            org.eclipse.core.expressions [137]
+                              Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.3.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+                                   org.eclipse.core.runtime [147]
+                                     Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                                     Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                                       -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+                                          org.eclipse.equinox.registry [404]
+                                            Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                                              -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                                                 org.eclipse.core.jobs [142]
+                                                   Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                                                     -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                                            Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                                              -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                                     Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                                       -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+                                          org.eclipse.core.contenttype [132]
+                                            Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                                              -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                                                 org.eclipse.equinox.preferences [403]
+                                                   Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                                                     -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                                     Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                                       -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+                                     Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+                                       -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                                     Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                                       -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                                     Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+                                       -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+                                          org.eclipse.equinox.app [358]
+                                            Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                                              -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.12.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.ant.core; bundle-version="[3.1.0,4.0.0)"; resolution:="optional"
+                         -> Bundle-SymbolicName: org.eclipse.ant.core; bundle-version="3.6.100.v20210731-1643"; singleton:="true"
+                            org.eclipse.ant.core [118]
+                              Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.2.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+                              Unresolved requirement: Require-Bundle: org.eclipse.core.variables; bundle-version="[3.1.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.core.variables; bundle-version="3.5.100.v20210721-1355"; singleton:="true"
+                                   org.eclipse.core.variables [148]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.3.0,4.0.0)"
+                                       -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+
+
+!ENTRY org.eclipse.jpt.jpa.core 2 0 2024-09-05 15:41:48.114
+!MESSAGE Could not resolve module: org.eclipse.jpt.jpa.core [479]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.commands; bundle-version="[3.4.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.core.commands; bundle-version="3.10.100.v20210722-1426"
+       org.eclipse.core.commands [131]
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+              org.eclipse.equinox.common [360]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+
+
+!ENTRY org.eclipse.mylyn.monitor.ui 2 0 2024-09-05 15:41:48.114
+!MESSAGE Could not resolve module: org.eclipse.mylyn.monitor.ui [665]
+  Unresolved requirement: Require-Bundle: org.eclipse.ui
+    -> Bundle-SymbolicName: org.eclipse.ui; bundle-version="3.119.100.v20210830-0942"; singleton:="true"
+       org.eclipse.ui [783]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.2.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+              org.eclipse.core.runtime [147]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+                     org.eclipse.equinox.registry [404]
+                       Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                         -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                            org.eclipse.core.jobs [142]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                                   org.eclipse.equinox.common [360]
+                                     Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+                     org.eclipse.core.contenttype [132]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                            org.eclipse.equinox.preferences [403]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+                     org.eclipse.equinox.app [358]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+
+
+!ENTRY org.eclipse.jsch.ui 2 0 2024-09-05 15:41:48.115
+!MESSAGE Could not resolve module: org.eclipse.jsch.ui [489]
+  Unresolved requirement: Require-Bundle: org.eclipse.ui; bundle-version="[3.5.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.ui; bundle-version="3.119.100.v20210830-0942"; singleton:="true"
+       org.eclipse.ui [783]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.2.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+              org.eclipse.core.runtime [147]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+                     org.eclipse.equinox.registry [404]
+                       Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                         -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                            org.eclipse.core.jobs [142]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                                   org.eclipse.equinox.common [360]
+                                     Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+                     org.eclipse.core.contenttype [132]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                            org.eclipse.equinox.preferences [403]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+                     org.eclipse.equinox.app [358]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+
+
+!ENTRY org.eclipse.pde.ds.ui 2 0 2024-09-05 15:41:48.115
+!MESSAGE Could not resolve module: org.eclipse.pde.ds.ui [740]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.11.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+       org.eclipse.core.runtime [147]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+              org.eclipse.equinox.registry [404]
+                Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                  -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                     org.eclipse.core.jobs [142]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                            org.eclipse.equinox.common [360]
+                              Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+              org.eclipse.core.contenttype [132]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                     org.eclipse.equinox.preferences [403]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+              org.eclipse.equinox.app [358]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+
+
+!ENTRY org.eclipse.m2e.jdt.ui 2 0 2024-09-05 15:41:48.115
+!MESSAGE Could not resolve module: org.eclipse.m2e.jdt.ui [614]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+       org.eclipse.core.runtime [147]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+              org.eclipse.equinox.registry [404]
+                Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                  -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                     org.eclipse.core.jobs [142]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                            org.eclipse.equinox.common [360]
+                              Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+              org.eclipse.core.contenttype [132]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                     org.eclipse.equinox.preferences [403]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+              org.eclipse.equinox.app [358]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+  Unresolved requirement: Fragment-Host: org.eclipse.m2e.jdt; bundle-version="[1.16.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.m2e.jdt; bundle-version="1.18.1.20210618-1338"; singleton:="true"
+       org.eclipse.m2e.jdt [613]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.runtime
+           -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+
+
+!ENTRY org.dadacoalition.yedit 2 0 2024-09-05 15:41:48.116
+!MESSAGE Could not resolve module: org.dadacoalition.yedit [117]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+       org.eclipse.core.runtime [147]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+              org.eclipse.equinox.registry [404]
+                Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                  -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                     org.eclipse.core.jobs [142]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                            org.eclipse.equinox.common [360]
+                              Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+              org.eclipse.core.contenttype [132]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                     org.eclipse.equinox.preferences [403]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+              org.eclipse.equinox.app [358]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.ui
+    -> Bundle-SymbolicName: org.eclipse.ui; bundle-version="3.119.100.v20210830-0942"; singleton:="true"
+       org.eclipse.ui [783]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.2.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+
+
+!ENTRY org.eclipse.equinox.preferences 2 0 2024-09-05 15:41:48.116
+!MESSAGE Could not resolve module: org.eclipse.equinox.preferences [403]
+  Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+       org.eclipse.equinox.common [360]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+
+
+!ENTRY org.eclipse.mylyn.resources.ui 2 0 2024-09-05 15:41:48.116
+!MESSAGE Could not resolve module: org.eclipse.mylyn.resources.ui [666]
+  Unresolved requirement: Require-Bundle: org.eclipse.ui.ide
+    -> Bundle-SymbolicName: org.eclipse.ui.ide; bundle-version="3.18.300.v20210817-1731"; singleton:="true"
+       org.eclipse.ui.ide [791]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.resources; bundle-version="[3.7.0,4.0.0)"; resolution:="optional"
+           -> Bundle-SymbolicName: org.eclipse.core.resources; bundle-version="3.15.100.v20210818-1523"; singleton:="true"
+              org.eclipse.core.resources [145]
+                Unresolved requirement: Require-Bundle: org.eclipse.core.filesystem; bundle-version="[1.3.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.core.filesystem; bundle-version="1.9.100.v20210611-0919"; singleton:="true"
+                     org.eclipse.core.filesystem [140]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                            org.eclipse.equinox.common [360]
+                              Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.expressions; bundle-version="[3.2.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.core.expressions; bundle-version="3.8.0.v20210723-1034"; singleton:="true"
+                     org.eclipse.core.expressions [137]
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.3.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+                            org.eclipse.core.runtime [147]
+                              Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+                                   org.eclipse.equinox.registry [404]
+                                     Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                                       -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                                          org.eclipse.core.jobs [142]
+                                            Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                                              -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                                     Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                                       -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                              Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+                                   org.eclipse.core.contenttype [132]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                                       -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                                          org.eclipse.equinox.preferences [403]
+                                            Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                                              -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                              Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+                                   org.eclipse.equinox.app [358]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                                       -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.12.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.ant.core; bundle-version="[3.1.0,4.0.0)"; resolution:="optional"
+                  -> Bundle-SymbolicName: org.eclipse.ant.core; bundle-version="3.6.100.v20210731-1643"; singleton:="true"
+                     org.eclipse.ant.core [118]
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.variables; bundle-version="[3.1.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.core.variables; bundle-version="3.5.100.v20210721-1355"; singleton:="true"
+                            org.eclipse.core.variables [148]
+                              Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.3.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.18.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+
+
+!ENTRY org.eclipse.datatools.sqltools.common.ui 2 0 2024-09-05 15:41:48.117
+!MESSAGE Could not resolve module: org.eclipse.datatools.sqltools.common.ui [244]
+  Unresolved requirement: Require-Bundle: org.eclipse.ui
+    -> Bundle-SymbolicName: org.eclipse.ui; bundle-version="3.119.100.v20210830-0942"; singleton:="true"
+       org.eclipse.ui [783]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.2.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+              org.eclipse.core.runtime [147]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+                     org.eclipse.equinox.registry [404]
+                       Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                         -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                            org.eclipse.core.jobs [142]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                                   org.eclipse.equinox.common [360]
+                                     Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+                     org.eclipse.core.contenttype [132]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                            org.eclipse.equinox.preferences [403]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+                     org.eclipse.equinox.app [358]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2024-09-05 15:41:48.117
+!MESSAGE Could not resolve module: org.springframework.ide.eclipse.beans.core [964]
+  Unresolved requirement: Import-Package: org.eclipse.core.expressions
+    -> Export-Package: org.eclipse.core.expressions; bundle-symbolic-name="org.eclipse.core.expressions"; bundle-version="3.8.0.v20210723-1034"; version="0.0.0"
+       org.eclipse.core.expressions [137]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.3.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+              org.eclipse.core.runtime [147]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+                     org.eclipse.equinox.registry [404]
+                       Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                         -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                            org.eclipse.core.jobs [142]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                                   org.eclipse.equinox.common [360]
+                                     Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+                     org.eclipse.core.contenttype [132]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                            org.eclipse.equinox.preferences [403]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+                     org.eclipse.equinox.app [358]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+
+
+!ENTRY org.eclipse.jst.ws.jaxws.ui 2 0 2024-09-05 15:41:48.117
+!MESSAGE Could not resolve module: org.eclipse.jst.ws.jaxws.ui [589]
+  Unresolved requirement: Require-Bundle: org.eclipse.ui; bundle-version="[3.4.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.ui; bundle-version="3.119.100.v20210830-0942"; singleton:="true"
+       org.eclipse.ui [783]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.2.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+              org.eclipse.core.runtime [147]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+                     org.eclipse.equinox.registry [404]
+                       Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                         -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                            org.eclipse.core.jobs [142]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                                   org.eclipse.equinox.common [360]
+                                     Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+                     org.eclipse.core.contenttype [132]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                            org.eclipse.equinox.preferences [403]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+                     org.eclipse.equinox.app [358]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+
+
+!ENTRY org.eclipse.jst.pagedesigner.jsp.core 2 0 2024-09-05 15:41:48.118
+!MESSAGE Could not resolve module: org.eclipse.jst.pagedesigner.jsp.core [539]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.2.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+       org.eclipse.core.runtime [147]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+              org.eclipse.equinox.registry [404]
+                Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                  -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                     org.eclipse.core.jobs [142]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                            org.eclipse.equinox.common [360]
+                              Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+              org.eclipse.core.contenttype [132]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                     org.eclipse.equinox.preferences [403]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+              org.eclipse.equinox.app [358]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+
+
+!ENTRY org.eclipse.wst.ws 2 0 2024-09-05 15:41:48.118
+!MESSAGE Could not resolve module: org.eclipse.wst.ws [870]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.2.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+       org.eclipse.core.runtime [147]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+              org.eclipse.equinox.registry [404]
+                Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                  -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                     org.eclipse.core.jobs [142]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                            org.eclipse.equinox.common [360]
+                              Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+              org.eclipse.core.contenttype [132]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                     org.eclipse.equinox.preferences [403]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+              org.eclipse.equinox.app [358]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+
+
+!ENTRY org.springframework.ide.eclipse.webflow.ui 2 0 2024-09-05 15:41:48.118
+!MESSAGE Could not resolve module: org.springframework.ide.eclipse.webflow.ui [997]
+  Unresolved requirement: Import-Package: org.eclipse.core.commands.common
+    -> Export-Package: org.eclipse.core.commands.common; bundle-symbolic-name="org.eclipse.core.commands"; bundle-version="3.10.100.v20210722-1426"; version="0.0.0"
+       org.eclipse.core.commands [131]
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+              org.eclipse.equinox.common [360]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+
+
+!ENTRY org.eclipse.ui.cheatsheets 2 0 2024-09-05 15:41:48.119
+!MESSAGE Could not resolve module: org.eclipse.ui.cheatsheets [785]
+  Unresolved requirement: Require-Bundle: org.eclipse.ui; bundle-version="[3.6.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.ui; bundle-version="3.119.100.v20210830-0942"; singleton:="true"
+       org.eclipse.ui [783]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.2.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+              org.eclipse.core.runtime [147]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+                     org.eclipse.equinox.registry [404]
+                       Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                         -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                            org.eclipse.core.jobs [142]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                                   org.eclipse.equinox.common [360]
+                                     Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+                     org.eclipse.core.contenttype [132]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                            org.eclipse.equinox.preferences [403]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+                     org.eclipse.equinox.app [358]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+
+
+!ENTRY org.eclipse.pde.ds1_2.lib 2 0 2024-09-05 15:41:48.119
+!MESSAGE Could not resolve module: org.eclipse.pde.ds1_2.lib [741]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+
+
+!ENTRY org.eclipse.pde.build 2 0 2024-09-05 15:41:48.119
+!MESSAGE Could not resolve module: org.eclipse.pde.build [734]
+  Unresolved requirement: Import-Package: org.eclipse.equinox.frameworkadmin; version="[2.0.0,3.0.0)"
+    -> Export-Package: org.eclipse.equinox.frameworkadmin; bundle-symbolic-name="org.eclipse.equinox.frameworkadmin"; bundle-version="2.2.0.v20210315-2042"; version="2.0.0"
+       org.eclipse.equinox.frameworkadmin [364]
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="3.4.0"
+           -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+              org.eclipse.equinox.common [360]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+
+
+!ENTRY org.eclipse.team.genericeditor.diff.extension 2 0 2024-09-05 15:41:48.120
+!MESSAGE Could not resolve module: org.eclipse.team.genericeditor.diff.extension [763]
+  Unresolved requirement: Require-Bundle: org.eclipse.ui.workbench.texteditor; bundle-version="[3.10.100,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.ui.workbench.texteditor; bundle-version="3.16.200.v20210724-2153"; singleton:="true"
+       org.eclipse.ui.workbench.texteditor [807]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.5.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+              org.eclipse.core.runtime [147]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+                     org.eclipse.equinox.registry [404]
+                       Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                         -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                            org.eclipse.core.jobs [142]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                                   org.eclipse.equinox.common [360]
+                                     Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+                     org.eclipse.core.contenttype [132]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                            org.eclipse.equinox.preferences [403]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+                     org.eclipse.equinox.app [358]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+
+
+!ENTRY org.eclipse.datatools.sqltools.sqlscrapbook 2 0 2024-09-05 15:41:48.120
+!MESSAGE Could not resolve module: org.eclipse.datatools.sqltools.sqlscrapbook [274]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.sqleditor
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.sqleditor; bundle-version="1.2.201.202009292210"; singleton:="true"
+       org.eclipse.datatools.sqltools.sqleditor [273]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.resources
+           -> Bundle-SymbolicName: org.eclipse.core.resources; bundle-version="3.15.100.v20210818-1523"; singleton:="true"
+              org.eclipse.core.resources [145]
+                Unresolved requirement: Require-Bundle: org.eclipse.core.filesystem; bundle-version="[1.3.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.core.filesystem; bundle-version="1.9.100.v20210611-0919"; singleton:="true"
+                     org.eclipse.core.filesystem [140]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                            org.eclipse.equinox.common [360]
+                              Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.expressions; bundle-version="[3.2.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.core.expressions; bundle-version="3.8.0.v20210723-1034"; singleton:="true"
+                     org.eclipse.core.expressions [137]
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.3.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+                            org.eclipse.core.runtime [147]
+                              Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+                                   org.eclipse.equinox.registry [404]
+                                     Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                                       -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                                          org.eclipse.core.jobs [142]
+                                            Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                                              -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                                     Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                                       -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                              Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+                                   org.eclipse.core.contenttype [132]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                                       -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                                          org.eclipse.equinox.preferences [403]
+                                            Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                                              -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                              Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+                                   org.eclipse.equinox.app [358]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                                       -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.12.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.ant.core; bundle-version="[3.1.0,4.0.0)"; resolution:="optional"
+                  -> Bundle-SymbolicName: org.eclipse.ant.core; bundle-version="3.6.100.v20210731-1643"; singleton:="true"
+                     org.eclipse.ant.core [118]
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.variables; bundle-version="[3.1.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.core.variables; bundle-version="3.5.100.v20210721-1355"; singleton:="true"
+                            org.eclipse.core.variables [148]
+                              Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.3.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+
+
+!ENTRY org.springframework.ide.eclipse.config.core 2 0 2024-09-05 15:41:48.120
+!MESSAGE Could not resolve module: org.springframework.ide.eclipse.config.core [980]
+  Unresolved requirement: Import-Package: org.eclipse.core.runtime
+    -> Export-Package: org.eclipse.core.runtime; bundle-symbolic-name="org.eclipse.core.runtime"; bundle-version="3.23.0.v20210730-2035"; version="3.7.0"
+       org.eclipse.core.runtime [147]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+              org.eclipse.equinox.registry [404]
+                Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                  -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                     org.eclipse.core.jobs [142]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                            org.eclipse.equinox.common [360]
+                              Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+              org.eclipse.core.contenttype [132]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                     org.eclipse.equinox.preferences [403]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+              org.eclipse.equinox.app [358]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+
+
+!ENTRY org.eclipse.datatools.connectivity.db.generic 2 0 2024-09-05 15:41:48.121
+!MESSAGE Could not resolve module: org.eclipse.datatools.connectivity.db.generic [155]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+       org.eclipse.core.runtime [147]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+              org.eclipse.equinox.registry [404]
+                Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                  -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                     org.eclipse.core.jobs [142]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                            org.eclipse.equinox.common [360]
+                              Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+              org.eclipse.core.contenttype [132]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                     org.eclipse.equinox.preferences [403]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+              org.eclipse.equinox.app [358]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+
+
+!ENTRY org.eclipse.datatools.enablement.ingres.ui 2 0 2024-09-05 15:41:48.121
+!MESSAGE Could not resolve module: org.eclipse.datatools.enablement.ingres.ui [197]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.connectivity.db.generic.ui
+    -> Bundle-SymbolicName: org.eclipse.datatools.connectivity.db.generic.ui; bundle-version="1.2.101.201811012051"; singleton:="true"
+       org.eclipse.datatools.connectivity.db.generic.ui [156]
+         Unresolved requirement: Require-Bundle: org.eclipse.ui
+           -> Bundle-SymbolicName: org.eclipse.ui; bundle-version="3.119.100.v20210830-0942"; singleton:="true"
+              org.eclipse.ui [783]
+                Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.2.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+                     org.eclipse.core.runtime [147]
+                       Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+                            org.eclipse.equinox.registry [404]
+                              Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                                -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                                   org.eclipse.core.jobs [142]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                                       -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                                          org.eclipse.equinox.common [360]
+                                            Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+                            org.eclipse.core.contenttype [132]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                                   org.eclipse.equinox.preferences [403]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                                       -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+                            org.eclipse.equinox.app [358]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+
+
+!ENTRY org.eclipse.mylyn.context.core 2 0 2024-09-05 15:41:48.122
+!MESSAGE Could not resolve module: org.eclipse.mylyn.context.core [653]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+       org.eclipse.core.runtime [147]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+              org.eclipse.equinox.registry [404]
+                Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                  -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                     org.eclipse.core.jobs [142]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                            org.eclipse.equinox.common [360]
+                              Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+              org.eclipse.core.contenttype [132]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                     org.eclipse.equinox.preferences [403]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+              org.eclipse.equinox.app [358]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+
+
+!ENTRY org.eclipse.e4.ui.workbench.renderers.swt 2 0 2024-09-05 15:41:48.122
+!MESSAGE Could not resolve module: org.eclipse.e4.ui.workbench.renderers.swt [300]
+  Unresolved requirement: Require-Bundle: org.eclipse.e4.ui.workbench; bundle-version="0.9.0"
+    -> Bundle-SymbolicName: org.eclipse.e4.ui.workbench; bundle-version="1.13.0.v20210521-0741"; singleton:="true"
+       org.eclipse.e4.ui.workbench [298]
+         Unresolved requirement: Require-Bundle: org.eclipse.e4.ui.model.workbench; bundle-version="1.2.0"
+           -> Bundle-SymbolicName: org.eclipse.e4.ui.model.workbench; bundle-version="2.2.0.v20210727-1533"; singleton:="true"
+              org.eclipse.e4.ui.model.workbench [294]
+                Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.7.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+                     org.eclipse.core.runtime [147]
+                       Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+                            org.eclipse.equinox.registry [404]
+                              Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                                -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                                   org.eclipse.core.jobs [142]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                                       -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                                          org.eclipse.equinox.common [360]
+                                            Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+                            org.eclipse.core.contenttype [132]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                                   org.eclipse.equinox.preferences [403]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                                       -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+                            org.eclipse.equinox.app [358]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+         Unresolved requirement: Import-Package: org.osgi.service.component.annotations; version="1.2.0"; resolution:="optional"
+           -> Export-Package: org.osgi.service.component.annotations; bundle-symbolic-name="org.eclipse.pde.ds1_2.lib"; bundle-version="1.0.500.v20210209-1250"; version="1.2.0"
+              org.eclipse.pde.ds1_2.lib [741]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+
+
+!ENTRY org.eclipse.m2e.wtp.overlay.ui 2 0 2024-09-05 15:41:48.122
+!MESSAGE Could not resolve module: org.eclipse.m2e.wtp.overlay.ui [637]
+  Unresolved requirement: Require-Bundle: org.eclipse.ui
+    -> Bundle-SymbolicName: org.eclipse.ui; bundle-version="3.119.100.v20210830-0942"; singleton:="true"
+       org.eclipse.ui [783]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.2.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+              org.eclipse.core.runtime [147]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+                     org.eclipse.equinox.registry [404]
+                       Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                         -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                            org.eclipse.core.jobs [142]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                                   org.eclipse.equinox.common [360]
+                                     Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+                     org.eclipse.core.contenttype [132]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                            org.eclipse.equinox.preferences [403]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+                     org.eclipse.equinox.app [358]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+
+
+!ENTRY org.eclipse.wst.common.frameworks 2 0 2024-09-05 15:41:48.123
+!MESSAGE Could not resolve module: org.eclipse.wst.common.frameworks [826]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.resources; bundle-version="[3.4.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.core.resources; bundle-version="3.15.100.v20210818-1523"; singleton:="true"
+       org.eclipse.core.resources [145]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.filesystem; bundle-version="[1.3.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.filesystem; bundle-version="1.9.100.v20210611-0919"; singleton:="true"
+              org.eclipse.core.filesystem [140]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                     org.eclipse.equinox.common [360]
+                       Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.expressions; bundle-version="[3.2.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.expressions; bundle-version="3.8.0.v20210723-1034"; singleton:="true"
+              org.eclipse.core.expressions [137]
+                Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.3.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+                     org.eclipse.core.runtime [147]
+                       Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+                            org.eclipse.equinox.registry [404]
+                              Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                                -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                                   org.eclipse.core.jobs [142]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                                       -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+                            org.eclipse.core.contenttype [132]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                                   org.eclipse.equinox.preferences [403]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                                       -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+                            org.eclipse.equinox.app [358]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.12.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.ant.core; bundle-version="[3.1.0,4.0.0)"; resolution:="optional"
+           -> Bundle-SymbolicName: org.eclipse.ant.core; bundle-version="3.6.100.v20210731-1643"; singleton:="true"
+              org.eclipse.ant.core [118]
+                Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.2.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.variables; bundle-version="[3.1.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.core.variables; bundle-version="3.5.100.v20210721-1355"; singleton:="true"
+                     org.eclipse.core.variables [148]
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.3.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+
+
+!ENTRY org.eclipse.datatools.connectivity.db.generic.ui 2 0 2024-09-05 15:41:48.123
+!MESSAGE Could not resolve module: org.eclipse.datatools.connectivity.db.generic.ui [156]
+  Unresolved requirement: Require-Bundle: org.eclipse.ui
+    -> Bundle-SymbolicName: org.eclipse.ui; bundle-version="3.119.100.v20210830-0942"; singleton:="true"
+       org.eclipse.ui [783]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.2.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+              org.eclipse.core.runtime [147]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+                     org.eclipse.equinox.registry [404]
+                       Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                         -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                            org.eclipse.core.jobs [142]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                                   org.eclipse.equinox.common [360]
+                                     Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+                     org.eclipse.core.contenttype [132]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                            org.eclipse.equinox.preferences [403]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+                     org.eclipse.equinox.app [358]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+
+
+!ENTRY org.eclipse.datatools.modelbase.sql.query.edit 2 0 2024-09-05 15:41:48.123
+!MESSAGE Could not resolve module: org.eclipse.datatools.modelbase.sql.query.edit [240]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+       org.eclipse.core.runtime [147]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+              org.eclipse.equinox.registry [404]
+                Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                  -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                     org.eclipse.core.jobs [142]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                            org.eclipse.equinox.common [360]
+                              Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+              org.eclipse.core.contenttype [132]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                     org.eclipse.equinox.preferences [403]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+              org.eclipse.equinox.app [358]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+
+
+!ENTRY org.eclipse.ecf.provider.filetransfer.ssl 2 0 2024-09-05 15:41:48.124
+!MESSAGE Could not resolve module: org.eclipse.ecf.provider.filetransfer.ssl [309]
+  Unresolved requirement: Fragment-Host: org.eclipse.ecf.provider.filetransfer; bundle-version="2.0.0"
+    -> Bundle-SymbolicName: org.eclipse.ecf.provider.filetransfer; bundle-version="3.2.700.v20210618-0642"; singleton:="true"
+       org.eclipse.ecf.provider.filetransfer [306]
+         Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs
+           -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+              org.eclipse.core.jobs [142]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                     org.eclipse.equinox.common [360]
+                       Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+         Unresolved requirement: Import-Package: org.eclipse.core.net.proxy; resolution:="optional"
+           -> Export-Package: org.eclipse.core.net.proxy; bundle-symbolic-name="org.eclipse.core.net"; bundle-version="1.3.1100.v20210424-0724"; version="0.0.0"
+              org.eclipse.core.net [143]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="3.12.0"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.security; bundle-version="[1.0.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.security; bundle-version="1.3.700.v20210726-0943"; singleton:="true"
+                     org.eclipse.equinox.security [405]
+                       Unresolved requirement: Import-Package: org.eclipse.core.internal.runtime; common="split"
+                         -> Export-Package: org.eclipse.core.internal.runtime; bundle-symbolic-name="org.eclipse.equinox.common"; common="split"; bundle-version="3.15.0.v20210518-0604"; version="0.0.0"; x-friends:="org.eclipse.core.contenttype,  org.eclipse.core.jobs,  org.eclipse.equinox.preferences,  org.eclipse.equinox.registry,  org.eclipse.core.runtime,  org.eclipse.core.runtime.compatibility,  org.eclipse.core.filesystem,  org.eclipse.equinox.security"; mandatory:="common"
+
+
+!ENTRY org.eclipse.jpt.jpa.eclipselink.ui 2 0 2024-09-05 15:41:48.124
+!MESSAGE Could not resolve module: org.eclipse.jpt.jpa.eclipselink.ui [485]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.resources; bundle-version="[3.4.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.core.resources; bundle-version="3.15.100.v20210818-1523"; singleton:="true"
+       org.eclipse.core.resources [145]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.filesystem; bundle-version="[1.3.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.filesystem; bundle-version="1.9.100.v20210611-0919"; singleton:="true"
+              org.eclipse.core.filesystem [140]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                     org.eclipse.equinox.common [360]
+                       Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.expressions; bundle-version="[3.2.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.expressions; bundle-version="3.8.0.v20210723-1034"; singleton:="true"
+              org.eclipse.core.expressions [137]
+                Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.3.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+                     org.eclipse.core.runtime [147]
+                       Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+                            org.eclipse.equinox.registry [404]
+                              Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                                -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                                   org.eclipse.core.jobs [142]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                                       -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+                            org.eclipse.core.contenttype [132]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                                   org.eclipse.equinox.preferences [403]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                                       -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+                            org.eclipse.equinox.app [358]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.12.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.ant.core; bundle-version="[3.1.0,4.0.0)"; resolution:="optional"
+           -> Bundle-SymbolicName: org.eclipse.ant.core; bundle-version="3.6.100.v20210731-1643"; singleton:="true"
+              org.eclipse.ant.core [118]
+                Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.2.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.variables; bundle-version="[3.1.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.core.variables; bundle-version="3.5.100.v20210721-1355"; singleton:="true"
+                     org.eclipse.core.variables [148]
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.3.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+
+
+!ENTRY org.eclipse.ui.intro 2 0 2024-09-05 15:41:48.124
+!MESSAGE Could not resolve module: org.eclipse.ui.intro [793]
+  Unresolved requirement: Import-Package: org.eclipse.e4.core.di.annotations
+    -> Export-Package: org.eclipse.e4.core.di.annotations; bundle-symbolic-name="org.eclipse.e4.core.di.annotations"; bundle-version="1.7.0.v20210625-1052"; version="1.6.0"
+       org.eclipse.e4.core.di.annotations [282]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+
+
+!ENTRY org.eclipse.e4.ui.workbench3 2 0 2024-09-05 15:41:48.125
+!MESSAGE Could not resolve module: org.eclipse.e4.ui.workbench3 [302]
+  Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.7.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+       org.eclipse.equinox.common [360]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+
+
+!ENTRY org.eclipse.jst.ws.axis2.consumption.core 2 0 2024-09-05 15:41:48.125
+!MESSAGE Could not resolve module: org.eclipse.jst.ws.axis2.consumption.core [559]
+  Unresolved requirement: Require-Bundle: org.eclipse.ui
+    -> Bundle-SymbolicName: org.eclipse.ui; bundle-version="3.119.100.v20210830-0942"; singleton:="true"
+       org.eclipse.ui [783]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.2.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+              org.eclipse.core.runtime [147]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+                     org.eclipse.equinox.registry [404]
+                       Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                         -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                            org.eclipse.core.jobs [142]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                                   org.eclipse.equinox.common [360]
+                                     Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+                     org.eclipse.core.contenttype [132]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                            org.eclipse.equinox.preferences [403]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+                     org.eclipse.equinox.app [358]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+
+
+!ENTRY org.eclipse.mylyn.commons.screenshots 2 0 2024-09-05 15:41:48.125
+!MESSAGE Could not resolve module: org.eclipse.mylyn.commons.screenshots [649]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+       org.eclipse.core.runtime [147]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+              org.eclipse.equinox.registry [404]
+                Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                  -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                     org.eclipse.core.jobs [142]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                            org.eclipse.equinox.common [360]
+                              Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+              org.eclipse.core.contenttype [132]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                     org.eclipse.equinox.preferences [403]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+              org.eclipse.equinox.app [358]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+
+
+!ENTRY org.eclipse.ui.views 2 0 2024-09-05 15:41:48.126
+!MESSAGE Could not resolve module: org.eclipse.ui.views [802]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.11.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+       org.eclipse.core.runtime [147]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+              org.eclipse.equinox.registry [404]
+                Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                  -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                     org.eclipse.core.jobs [142]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                            org.eclipse.equinox.common [360]
+                              Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+              org.eclipse.core.contenttype [132]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                     org.eclipse.equinox.preferences [403]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+              org.eclipse.equinox.app [358]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+
+
+!ENTRY org.eclipse.wst.common.modulecore 2 0 2024-09-05 15:41:48.126
+!MESSAGE Could not resolve module: org.eclipse.wst.common.modulecore [829]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.4.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+       org.eclipse.core.runtime [147]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+              org.eclipse.equinox.registry [404]
+                Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                  -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                     org.eclipse.core.jobs [142]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                            org.eclipse.equinox.common [360]
+                              Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+              org.eclipse.core.contenttype [132]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                     org.eclipse.equinox.preferences [403]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+              org.eclipse.equinox.app [358]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+
+
+!ENTRY org.eclipse.wst.dtd.core 2 0 2024-09-05 15:41:48.127
+!MESSAGE Could not resolve module: org.eclipse.wst.dtd.core [838]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.resources; bundle-version="[3.13.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.core.resources; bundle-version="3.15.100.v20210818-1523"; singleton:="true"
+       org.eclipse.core.resources [145]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.filesystem; bundle-version="[1.3.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.filesystem; bundle-version="1.9.100.v20210611-0919"; singleton:="true"
+              org.eclipse.core.filesystem [140]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                     org.eclipse.equinox.common [360]
+                       Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.expressions; bundle-version="[3.2.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.expressions; bundle-version="3.8.0.v20210723-1034"; singleton:="true"
+              org.eclipse.core.expressions [137]
+                Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.3.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+                     org.eclipse.core.runtime [147]
+                       Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+                            org.eclipse.equinox.registry [404]
+                              Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs; resolution:="optional"
+                                -> Export-Package: org.eclipse.core.runtime.jobs; bundle-symbolic-name="org.eclipse.core.jobs"; bundle-version="3.12.0.v20210723-1034"; version="0.0.0"
+                                   org.eclipse.core.jobs [142]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.8.0,4.0.0)"
+                                       -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.contenttype; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.core.contenttype; bundle-version="3.8.0.v20210621-0954"; singleton:="true"
+                            org.eclipse.core.contenttype [132]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.2.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                                   org.eclipse.equinox.preferences [403]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                                       -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.10.0,4.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.12.0.v20210723-1034"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.14.0,4.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.preferences; bundle-version="[3.7.0,4.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.preferences; bundle-version="3.9.0.v20210726-0943"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.app; bundle-version="1.3.0"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.app; bundle-version="1.6.0.v20210723-1130"; singleton:="true"
+                            org.eclipse.equinox.app [358]
+                              Unresolved requirement: Require-Bundle: org.eclipse.equinox.registry; bundle-version="[3.4.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.equinox.registry; bundle-version="3.11.0.v20210723-1953"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.12.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.ant.core; bundle-version="[3.1.0,4.0.0)"; resolution:="optional"
+           -> Bundle-SymbolicName: org.eclipse.ant.core; bundle-version="3.6.100.v20210731-1643"; singleton:="true"
+              org.eclipse.ant.core [118]
+                Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.2.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.variables; bundle-version="[3.1.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.core.variables; bundle-version="3.5.100.v20210721-1355"; singleton:="true"
+                     org.eclipse.core.variables [148]
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.3.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.23.0.v20210730-2035"; singleton:="true"
+
+
+!ENTRY org.eclipse.wtp.javascript.capabilities 2 0 2024-09-05 15:41:48.127
+!MESSAGE Could not resolve module: org.eclipse.wtp.javascript.capabilities [912]
+  Unresolved requirement: Require-Bundle: org.eclipse.ui.workbench
+    -> Bundle-SymbolicName: org.eclipse.ui.workbench; bundle-version="3.123.0.v20210817-0704"; singleton:="true"
+       org.eclipse.ui.workbench [806]
+         Unresolved requirement: Import-Package: org.eclipse.e4.core.commands
+           -> Export-Package: org.eclipse.e4.core.commands; bundle-symbolic-name="org.eclipse.e4.core.commands"; bundle-version="1.0.0.v20210507-1901"; version="0.0.0"
+              org.eclipse.e4.core.commands [279]
+                Unresolved requirement: Import-Package: org.eclipse.core.commands
+                  -> Export-Package: org.eclipse.core.commands; bundle-symbolic-name="org.eclipse.core.commands"; bundle-version="3.10.100.v20210722-1426"; version="0.0.0"
+                     org.eclipse.core.commands [131]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.common; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.common; bundle-version="3.15.0.v20210518-0604"; singleton:="true"
+                            org.eclipse.equinox.common [360]
+                              Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+
+
+!ENTRY org.eclipse.osgi 4 0 2024-09-05 15:41:48.139
+!MESSAGE Application error
+!STACK 1
+java.lang.IllegalStateException: Unable to acquire application service. Ensure that the org.eclipse.core.runtime bundle is resolved and started (see config.ini).
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:81)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)

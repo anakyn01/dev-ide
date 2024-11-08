@@ -1,0 +1,7 @@
+MAX_RECENT_WORKSPACES=10
+RECENT_WORKSPACES=E\:\\dev\\project\nE\:\\dev\\legacy\\model1\nE\:\\dev\\legacy\\model2\nE\:\\dev\\procedure\nC\:\\dev\\project\nC\:\\dev\\legacy\\model2\nE\:\\dev\\legacy\nC\:\\dev\\legacy\\model1\nC\:\\dev\\bom\nC\:\\dev\\update
+RECENT_WORKSPACES_PROTOCOL=3
+SHOW_RECENT_WORKSPACES=false
+SHOW_WORKSPACE_SELECTION_DIALOG=false
+WARN_ABOUT_WORKSPACE_INCOMPATIBILITY=false
+eclipse.preferences.version=1
